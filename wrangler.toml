@@ -13,13 +13,13 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "cloudflare-docker-proxy"
 # routes = [
-#   { pattern = "docker.loli.gift", custom_domain = true },
-#   { pattern = "quay.loli.gift", custom_domain = true },
-#   { pattern = "gcr.loli.gift", custom_domain = true },
-#   { pattern = "k8s-gcr.loli.gift", custom_domain = true },
-#   { pattern = "k8s.loli.gift", custom_domain = true },
-#   { pattern = "ghcr.loli.gift", custom_domain = true },
-#   { pattern = "cloudsmith.loli.gift", custom_domain = true },
+#   { pattern = "docker.akise.app", custom_domain = true },
+#   { pattern = "quay.akise.app", custom_domain = true },
+#   { pattern = "gcr.akise.app", custom_domain = true },
+#   { pattern = "k8s-gcr.akise.app", custom_domain = true },
+#   { pattern = "k8s.akise.app", custom_domain = true },
+#   { pattern = "ghcr.akise.app", custom_domain = true },
+#   { pattern = "cloudsmith.akise.app", custom_domain = true },
 # ]
 
 [env.production.vars]
@@ -28,7 +28,7 @@ TARGET_UPSTREAM = ""
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
-# route = { pattern = "docker-staging.loli.gift", custom_domain = true }
+# route = { pattern = "docker-staging.akise.app", custom_domain = true }
 
 [env.staging.vars]
 MODE = "staging"
